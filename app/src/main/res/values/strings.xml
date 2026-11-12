@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">UPI QR Maker</string>
+    <string name="app_tagline">UPI পেমেন্ট QR বানান</string>
+    <string name="app_description">আপনার UPI আইডি আর টাকার অঙ্ক দিন। গ্রাহক যেকোনো UPI অ্যাপ দিয়ে স্ক্যান করলেই টাকা পাঠাতে পারবেন।</string>
+
+    <!-- Labels -->
+    <string name="upi_id_label">UPI আইডি</string>
+    <string name="upi_id_hint">যেমন: yourname@okaxis</string>
+    <string name="payee_name_label">নাম (গ্রাহকের স্ক্রিনে দেখাবে)</string>
+    <string name="payee_name_hint">যেমন: Poster Studio</string>
+    <string name="amount_label">টাকার অঙ্ক (ঐচ্ছিক)</string>
+    <string name="amount_hint">ফাঁকা রাখলে গ্রাহক নিজে লিখবেন</string>
+    <string name="note_label">নোট (ঐচ্ছিক)</string>
+    <string name="note_hint">যেমন: পোস্টার অর্ডার</string>
+
+    <!-- Errors -->
+    <string name="err_invalid_vpa">সঠিক UPI আইডি দিন (যেমন: name@bank)</string>
+    <string name="err_invalid_amount">সঠিক টাকার অঙ্ক দিন</string>
+
+    <!-- QR Panel -->
+    <string name="qr_code_title">QR কোড</string>
+    <string name="qr_empty_message">UPI আইডি লিখলে এখানে QR কোড দেখা যাবে।</string>
+    <string name="qr_note_hint">QR সেভ করতে নিচের বোতাম ব্যবহার করুন। ব্যবহারের আগে নিজের UPI অ্যাপ দিয়ে একবার স্ক্যান করে নাম আর আইডি মিলিয়ে দেখুন।</string>
+
+    <!-- Buttons -->
+    <string name="btn_copy_link">পেমেন্ট লিংক কপি</string>
+    <string name="btn_share_qr">QR শেয়ার</string>
+    <string name="btn_save_qr">ছবি সেভ</string>
+    <string name="btn_test_upi">UPI অ্যাপে খুলুন</string>
+    <string name="btn_clear_all">মুছে ফেলুন</string>
+    <string name="btn_fullscreen">বড় করে দেখান</string>
+
+    <!-- Toasts & Feedback -->
+    <string name="toast_link_copied">পেমেন্ট লিংক ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="toast_saved_to_gallery">QR কোড সফলভাবে গ্যালারিতে সেভ হয়েছে</string>
+    <string name="toast_error_save">ছবি সেভ করতে ব্যর্থ হয়েছে</string>
+    <string name="toast_no_upi_app">কোনো UPI পেমেন্ট অ্যাপ পাওয়া যায়নি</string>
+    <string name="toast_cleared">তথ্য মুছে ফেলা হয়েছে</string>
+</resources>

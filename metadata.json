@@ -1,0 +1,6 @@
+{
+  "name": "UPI QR Maker",
+  "description": "UPI পেমেন্ট QR কোড তৈরির সহজ ও নির্ভরযোগ্য অ্যাপ - Create and customize instant UPI payment QR codes",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
